@@ -1,0 +1,43 @@
+.img-avatar {
+	display: flex !important;
+	margin-left: 44px;
+	img {
+		margin-left: 12px;
+		width: 24px;
+		height: 24px;
+		object-fit: cover;
+	}
+}
+.navbar {
+	&-transparent {
+		background: linear-gradient(to bottom, rgba(61,61,61,0.93) 21%,rgba(61,61,61,0.56) 56%,rgba(61,61,61,0) 99%,rgba(255,255,255,0) 100%);
+		border: none;
+		border-radius: 0;
+	}
+	&-brand {
+		padding: 9px 15px !important;
+	}
+	&-right {
+		li {
+			&.active {
+				a {
+					color: $move-red;
+					border-top: 3px solid $move-red;
+				}
+			}
+			 a {
+				border-top: 3px solid transparent;
+				color: #fff;
+				font-weight: 600;
+				text-transform: uppercase;
+				letter-spacing: -.3px;
+				transition: all .15s ease-in-out .1s;
+				&:hover, &:focus {
+					transition: all .15s ease-in-out .1s;
+					background-color: transparent;
+					border-top: 3px solid $move-red;
+				}
+			 }
+		}
+	}
+}

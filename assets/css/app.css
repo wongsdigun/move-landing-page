@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Aldrich|Michroma");
+.valign-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.uppercase {
+  text-transform: uppercase !important; }
+
+.capitalize {
+  text-transform: capitalize !important; }
+
+.no-padding {
+  padding: 0 !important; }
+
+.no-margin {
+  margin: 0 !important; }
+
+.no-border {
+  border: none !important; }
+
+.bold {
+  font-weight: bold !important; }
+
+.shadow-box {
+  transition: all .15s ease-in-out .1s;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.06); }
+
+.aldrich, body, html {
+  font-family: 'Aldrich', sans-serif; }
+
+.michroma, .hero-text .hero-header-wrapper .hero-header, .page-body-wrapper .page-body-header {
+  font-family: 'Michroma', sans-serif; }
+
+.img-avatar {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  margin-left: 44px; }
+  .img-avatar img {
+    margin-left: 12px;
+    width: 24px;
+    height: 24px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+.navbar-transparent {
+  background: linear-gradient(to bottom, rgba(61, 61, 61, 0.93) 21%, rgba(61, 61, 61, 0.56) 56%, rgba(61, 61, 61, 0) 99%, rgba(255, 255, 255, 0) 100%);
+  border: none;
+  border-radius: 0; }
+.navbar-brand {
+  padding: 9px 15px !important; }
+.navbar-right li.active a {
+  color: #eb2224;
+  border-top: 3px solid #eb2224; }
+.navbar-right li a {
+  border-top: 3px solid transparent;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -.3px;
+  transition: all .15s ease-in-out .1s; }
+  .navbar-right li a:hover, .navbar-right li a:focus {
+    transition: all .15s ease-in-out .1s;
+    background-color: transparent;
+    border-top: 3px solid #eb2224; }
+
+.hero-image {
+  background-image: url(../img/hero-fix.png), linear-gradient(transparent, black);
+  height: 574px;
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  right: -10%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  z-index: 99; }
+  .hero-text .hero-intro {
+    text-align: right;
+    width: 100px;
+    margin-right: 0;
+    margin-left: auto;
+    width: 400px;
+    font-style: italic;
+    opacity: .8;
+    line-height: 1.2; }
+  .hero-text .hero-header-wrapper {
+    margin-top: 100px; }
+    .hero-text .hero-header-wrapper .hero-header {
+      font-size: 45px;
+      font-weight: 900; }
+    .hero-text .hero-header-wrapper .hero-subheader {
+      font-size: 19px;
+      opacity: .8; }
+      .hero-text .hero-header-wrapper .hero-subheader-2 {
+        font-size: 14px;
+        opacity: .8;
+        margin: 0 auto;
+        width: 410px; }
+    .hero-text .hero-header-wrapper .hero-line {
+      margin: 16px 0 24px 0; }
+    .hero-text .hero-header-wrapper .btn-red {
+      background-color: #eb2224;
+      color: #fff;
+      border-radius: 0;
+      text-transform: uppercase;
+      padding: 4px 32px;
+      font-size: 15px;
+      margin-top: 34px;
+      margin-right: -34px; }
+      .hero-text .hero-header-wrapper .btn-red i {
+        font-size: 28px;
+        margin-left: 20px;
+        vertical-align: middle; }
+
+.slick-slide img {
+  margin: 0 auto; }
+
+body, html {
+  height: 100%;
+  background-color: #000;
+  background-image: url("../img/texture.png");
+  background-size: 100%; }
+
+.page-body {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.13) 21%, rgba(20, 20, 20, 0.26) 56%, rgba(61, 61, 61, 0) 99%, rgba(255, 255, 255, 0) 100%);
+  min-height: 500px;
+  height: 100%;
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  padding-top: 80px; }
+  .page-body-wrapper .page-body-header {
+    font-size: 18px;
+    color: #fff; }

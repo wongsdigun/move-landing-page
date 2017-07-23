@@ -1,0 +1,19 @@
+$move-red: #eb2224;
+
+.valign-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.uppercase {text-transform: uppercase !important;}
+.capitalize {text-transform: capitalize !important;}
+.no-padding {padding: 0 !important;}
+.no-margin {margin: 0 !important;}
+.no-border {border: none !important;}
+.bold {font-weight: bold !important;}
+
+.shadow-box {
+	transition: all .15s ease-in-out .1s;
+	box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.06);
+}
