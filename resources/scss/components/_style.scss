@@ -23,3 +23,19 @@ body, html {
 		}
 	}
 }
+
+.page-body-highlight {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	margin-bottom: 24px;
+	.carousel-tile {
+		float: left;
+		height: 100%;
+		min-height: 100%;
+		position: relative;
+		display: block;
+		margin: 0 23.5px;
+	}
+}
