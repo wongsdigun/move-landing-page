@@ -1,8 +1,9 @@
-body, html {
+body {
 	height: 100%;
 	background-color: #000;
-	background-image: url("../img/texture.png");
+	background-image: url("../img/texture-1.png");
 	background-size: 100%;
+	background-position: 100% -65%;
 	@extend .aldrich;
 }
 
