@@ -430,5 +430,128 @@ body {
   .page-body-highlight .row {
     padding: 0 12px; } }
 @media screen and (min-width: 1200px) {
+  body {
+    background-size: contain; }
+
+  .page-body {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 21%, rgba(20, 20, 20, 0.26) 56%, rgba(61, 61, 61, 0) 99%, rgba(255, 255, 255, 0) 100%); }
+    .page-body .container {
+      position: relative;
+      top: 50px; }
+
+  .page-body-highlight .custom-carousel-container {
+    width: 210px; }
+
+  .hero-image {
+    height: 541px; }
+
+  .hero-text {
+    top: 66%; }
+    .hero-text .hero-intro {
+      width: 400px; }
+    .hero-text .hero-header-wrapper {
+      margin-top: 100px; }
+
   .carousel-tile .carousel-img {
     width: 256px; } }
+@media screen and (min-width: 1360px) {
+  .page-body {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.12) 21%, rgba(20, 20, 20, 0.26) 56%, rgba(61, 61, 61, 0) 99%, rgba(255, 255, 255, 0) 100%);
+    padding-top: 86px; }
+    .page-body .container {
+      position: relative;
+      top: 20px; }
+
+  .hero-image {
+    height: 577px; }
+
+  .hero-text .hero-intro {
+    margin-right: 210px; }
+  .hero-text .hero-header-wrapper {
+    margin-top: 130px; } }
+@media screen and (min-width: 1400px) {
+  body {
+    background-size: contain;
+    background-position: 100% -81%; }
+
+  .page-body {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 21%, rgba(20, 20, 20, 0.26) 56%, rgba(61, 61, 61, 0) 99%, rgba(255, 255, 255, 0) 100%);
+    padding-top: 40px; }
+
+  .hero-image {
+    height: 615px; }
+
+  .hero-text {
+    top: 66%; }
+    .hero-text .hero-intro {
+      margin-right: 350px; } }
+@media screen and (min-width: 1600px) {
+  .page-body {
+    padding-top: 111px; }
+
+  .hero-image {
+    height: 684px; }
+
+  .hero-text {
+    top: 66%; }
+    .hero-text .hero-intro {
+      margin-right: 350px; }
+    .hero-text .hero-header-wrapper {
+      margin-top: 160px; } }
+@media screen and (min-width: 1680px) {
+  .page-body {
+    padding-top: 142px; }
+    .page-body .container {
+      position: relative;
+      top: 0; }
+
+  .hero-image {
+    height: 718px; }
+
+  .hero-text {
+    top: 66%; }
+    .hero-text .hero-intro {
+      margin-right: 350px; }
+    .hero-text .hero-header-wrapper {
+      margin-top: 160px; } }
+@media screen and (min-width: 1900px) {
+  .hero-image {
+    height: 814px; }
+    .hero-image .hero-intro {
+      font-size: 18px;
+      width: 500px; }
+
+  .hero-text {
+    top: 64%; }
+    .hero-text .hero-header-wrapper {
+      width: 932px; }
+      .hero-text .hero-header-wrapper .hero-header {
+        font-size: 54px; }
+      .hero-text .hero-header-wrapper .hero-subheader {
+        font-size: 24px; }
+      .hero-text .hero-header-wrapper .hero-subheader-2 {
+        width: initial;
+        font-size: 22px; }
+      .hero-text .hero-header-wrapper .btn-red {
+        margin-top: 74px;
+        margin-right: 0;
+        font-size: 22px;
+        padding: 10px 32px; }
+    .hero-text .hero-intro {
+      margin-right: 420px; }
+
+  .page-body {
+    padding-top: 238px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 21%, rgba(20, 20, 20, 0.26) 56%, rgba(61, 61, 61, 0) 99%, rgba(255, 255, 255, 0) 100%); }
+    .page-body .container {
+      top: -100px;
+      position: relative; }
+
+  .page-body-wrapper .page-body-header {
+    font-size: 24px; }
+
+  .page-body-highlight .custom-carousel-container {
+    width: 225px; }
+
+  .carousel-tile-subcaption {
+    font-size: 11px; } }
