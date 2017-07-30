@@ -103,7 +103,7 @@
   width: 2px;
 }
 .custom-border:after {
-  width: 20%;
+  width: 100%;
   height: 2px;
 }
 .custom-border:hover:before {height: 100%;}
@@ -121,7 +121,7 @@
   height: 50%;
 }
 .custom-border .carousel-tile-caption:after {
-  width: 20%;
+  width: 100%;
   height: 2px;
 }
 .custom-border .carousel-tile-caption:hover:before {height: 100%;}
